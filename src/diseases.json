@@ -1,122 +1,277 @@
-[{
-	"name": "Cholera",
-	"disease_URL": "https://www.who.int/health-topics/cholera#tab=tab_1",
-  "hashtags": [
-    {"hashtag": "Cholera"},
-    {"hashtag": "CholeraOutbreak"},
-    {"hashtag": "Epidemic"},
-    {"hashtag": "CholeraEpidemic"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=cholera&gl=US&ceid=US:en"
-},
-{
-	"name": "Ebola",
-	"disease_URL": "https://www.who.int/health-topics/ebola/#tab=tab_1",
-  "hashtags": [
-    {"hashtag": "Ebola"},
-    {"hashtag": "EbolaOutbreak"},
-    {"hashtag": "EbolaCure"},
-    {"hashtag": "EbolaVaccine"},
-    {"hashtag": "Epidemic"},
-    {"hashtag": "EbolaEpidemic"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=ebola&gl=US&ceid=US:en"
-},
-{
-	"name": "Meningitis",
-	"disease_URL": "https://www.who.int/emergencies/diseases/meningitis/en/",
-  "hashtags": [
-    {"hashtag": "Meningitis"},
-    {"hashtag": "BacterialMeningitis"},
-    {"hashtag": "ViralMeningitis"},
-    {"hashtag": "FungalMeningitis"},
-    {"hashtag": "MeningitisVaccine"},
-    {"hashtag": "meningitissurvivor"},
-    {"hashtag": "septicaemia"},
-    {"hashtag": "Vaccine"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=meningitis&gl=US&ceid=US:en"
-},
-{
-	"name": "COVID-19",
-  "disease_URL": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
-  "hashtags": [
-    {"hashtag": "COVID-19"},
-    {"hashtag": "coronavirus"},
-    {"hashtag": "covid"},
-    {"hashtag": "corona"},
-    {"hashtag": "COVID2019"},
-    {"hashtag": "CoronavirusOutbreak"},
-    {"hashtag": "pandemic"},
-    {"hashtag": "Vaccine"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=covid-19&gl=US&ceid=US:en"
-},
-{
-	"name": "Lyme Disease",
-	"disease_URL": "https://www.cdc.gov/ncezid/dvbd/media/lymedisease.html",
-  "hashtags": [
-    {"hashtag": "lymedisease"},
-    {"hashtag": "LymeDiseaseAwarenessMonth"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=lyme%20disease&gl=US&ceid=US:en"
-},
-{
-	"name": "Zika",
-	"disease_URL": "https://www.cdc.gov/zika/index.html",
-  "hashtags": [
-    {"hashtag": "zika"},
-    {"hashtag": "microcephaly"},
-    {"hashtag": "zikavirus"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=zika&gl=US&ceid=US:en"
-},
-{
-	"name": "Salmonella",
-	"disease_URL": "https://www.cdc.gov/salmonella/",
-  "hashtags": [
-    {"hashtag": "salmonella"},
-    {"hashtag": "salmonellapoisoning"},
-    {"hashtag": "foodpoisoning"},
-    {"hashtag": "salmonellasucks"},
-    {"hashtag": "salmonellaoutbreak"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Salmonella&gl=US&ceid=US:en"
-},
-{
-	"name": "HIV/AIDS",
-  "disease_URL": "https://www.cdc.gov/nchhstp/",
-  "hashtags": [
-    {"hashtag": "HIV"},
-    {"hashtag": "AIDS"},
-    {"hashtag": "WorldAIDSDay"},
-    {"hashtag": "AIDSWatch"},
-    {"hashtag": "PLHIV"},
-    {"hashtag": "NYHAAD"},
-    {"hashtag": "UEqualsU"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=HIV%20AIDS&gl=US&ceid=US:en"
-},
-{
-	"name": "Malaria",
-  "disease_URL": "https://www.cdc.gov/parasites/malaria/index.html",
-  "hashtags": [
-    {"hashtag": "Malaria"},
-    {"hashtag": "WorldMalariaDay"},
-    {"hashtag": "EndMalaria"},
-    {"hashtag": "EradicateMalaria"},
-    {"hashtag": "MalariaVaccine"},
-    {"hashtag": "Vaccine"}
-    
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Malaria&gl=US&ceid=US:en"
-},
-{
-	"name": "Yellow Fever",
-  "disease_URL": "https://www.who.int/csr/disease/yellowfev/en/",
-  "hashtags": [
-    {"hashtag": "yellowfever"},
-    {"hashtag": "yelowfeveroutbreak"}
-  ],
-  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Yellow%20Fever&gl=US&ceid=US:en"
-}]
+[
+  {
+    "name": "Cholera",
+    "disease_URL": "https://www.who.int/health-topics/cholera#tab=tab_1",
+    "hashtags": [
+      {
+        "hashtag": "Cholera"
+      },
+      {
+        "hashtag": "CholeraOutbreak"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "CholeraEpidemic"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=cholera&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Ebola",
+    "disease_URL": "https://www.who.int/health-topics/ebola/#tab=tab_1",
+    "hashtags": [
+      {
+        "hashtag": "Ebola"
+      },
+      {
+        "hashtag": "EbolaOutbreak"
+      },
+      {
+        "hashtag": "EbolaCure"
+      },
+      {
+        "hashtag": "EbolaVaccine"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "EbolaEpidemic"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=ebola&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Meningitis",
+    "disease_URL": "https://www.who.int/emergencies/diseases/meningitis/en/",
+    "hashtags": [
+      {
+        "hashtag": "Meningitis"
+      },
+      {
+        "hashtag": "BacterialMeningitis"
+      },
+      {
+        "hashtag": "ViralMeningitis"
+      },
+      {
+        "hashtag": "FungalMeningitis"
+      },
+      {
+        "hashtag": "MeningitisVaccine"
+      },
+      {
+        "hashtag": "meningitissurvivor"
+      },
+      {
+        "hashtag": "septicaemia"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=meningitis&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "COVID-19",
+    "disease_URL": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+    "hashtags": [
+      {
+        "hashtag": "COVID-19"
+      },
+      {
+        "hashtag": "coronavirus"
+      },
+      {
+        "hashtag": "covid"
+      },
+      {
+        "hashtag": "corona"
+      },
+      {
+        "hashtag": "COVID2019"
+      },
+      {
+        "hashtag": "CoronavirusOutbreak"
+      },
+      {
+        "hashtag": "pandemic"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=COVID-19&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Coronavirus&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=SARS-Cov-2&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Lyme Disease",
+    "disease_URL": "https://www.cdc.gov/ncezid/dvbd/media/lymedisease.html",
+    "hashtags": [
+      {
+        "hashtag": "lymedisease"
+      },
+      {
+        "hashtag": "LymeDiseaseAwarenessMonth"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=lyme%20disease&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Zika",
+    "disease_URL": "https://www.cdc.gov/zika/index.html",
+    "hashtags": [
+      {
+        "hashtag": "zika"
+      },
+      {
+        "hashtag": "microcephaly"
+      },
+      {
+        "hashtag": "zikavirus"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=zika&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Salmonella",
+    "disease_URL": "https://www.cdc.gov/salmonella/",
+    "hashtags": [
+      {
+        "hashtag": "salmonella"
+      },
+      {
+        "hashtag": "salmonellapoisoning"
+      },
+      {
+        "hashtag": "foodpoisoning"
+      },
+      {
+        "hashtag": "salmonellasucks"
+      },
+      {
+        "hashtag": "salmonellaoutbreak"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Salmonella&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "HIV/AIDS",
+    "disease_URL": "https://www.cdc.gov/nchhstp/",
+    "hashtags": [
+      {
+        "hashtag": "HIV"
+      },
+      {
+        "hashtag": "AIDS"
+      },
+      {
+        "hashtag": "WorldAIDSDay"
+      },
+      {
+        "hashtag": "AIDSWatch"
+      },
+      {
+        "hashtag": "PLHIV"
+      },
+      {
+        "hashtag": "NYHAAD"
+      },
+      {
+        "hashtag": "UEqualsU"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=HIV%20AIDS&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=HIV&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=AIDS&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Malaria",
+    "disease_URL": "https://www.cdc.gov/parasites/malaria/index.html",
+    "hashtags": [
+      {
+        "hashtag": "Malaria"
+      },
+      {
+        "hashtag": "WorldMalariaDay"
+      },
+      {
+        "hashtag": "EndMalaria"
+      },
+      {
+        "hashtag": "EradicateMalaria"
+      },
+      {
+        "hashtag": "MalariaVaccine"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Malaria&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Yellow Fever",
+    "disease_URL": "https://www.who.int/csr/disease/yellowfev/en/",
+    "hashtags": [
+      {
+        "hashtag": "yellowfever"
+      },
+      {
+        "hashtag": "yelowfeveroutbreak"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Yellow%20Fever&gl=US&ceid=US:en"
+      }
+    ]
+  }
+]
