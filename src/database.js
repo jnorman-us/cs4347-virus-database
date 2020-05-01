@@ -53,4 +53,16 @@ module.exports = class Database
 			});
 		}));
 	}
+
+	disconnect()
+	{
+		var self = this;
+
+		return (new Promise(function(resolve) {
+			self.connection.end(function(err) {
+				if(err) throw err;
+				resolve();
+			});
+		}));
+	}
 }
