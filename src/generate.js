@@ -90,19 +90,12 @@ const Database = require('./database.js');
 	//		inserting Hashtag and RSS Data for each Disease
 	for(var disease of diseases)
 	{
-		//Get disease ID for the foreign key; will return -1 if the disease is not found in the Disease table
-		disease_id = -1;
-		id_number_result = await database.query('SELECT `disease_id` FROM Disease WHERE `name` = "'+disease["name"]+'"');
-		result_data = id_number_result["result"];
-		if (result_data.length > 0){
-			disease_id = result_data[0]["disease_id"];
-		}
 		
-		if(disease_id != -1){
+		if(disease.id != -1){
 			//Insert Hashtag data
 			for(var disease_hashtag of disease["hashtags"]){
 				hashtag = disease_hashtag["hashtag"];
-				const insert_hashtag_result = await database.query('INSERT INTO Hashtag (disease_FK, hashtag) VALUES ('+disease_id+', "'+hashtag+'")');
+				const insert_hashtag_result = await database.query('INSERT INTO Hashtag (disease_FK, hashtag) VALUES ('+disease.id+', "'+hashtag+'")');
 				if(!insert_hashtag_result.success)
 					console.log('Failed to insert '+hashtag+' into Hashtag table');
 				else
@@ -114,7 +107,7 @@ const Database = require('./database.js');
 			for(var disease_RSS of disease["RSS"]){
 				rss = disease_RSS["RSS"];
 				rss_title = disease["name"] + " RSS";
-				const insert_rss_result = await database.query('INSERT INTO RSS (disease_FK, title, RSS_url) VALUES ('+disease_id+', "'+rss_title+'", "'+rss+'")');
+				const insert_rss_result = await database.query('INSERT INTO RSS (disease_FK, title, RSS_url) VALUES ('+disease.id+', "'+rss_title+'", "'+rss+'")');
 				if(!insert_rss_result.success)
 					console.log('Failed to insert '+rss+' into RSS table');
 				else
