@@ -6,7 +6,8 @@
     {"hashtag": "CholeraOutbreak"},
     {"hashtag": "Epidemic"},
     {"hashtag": "CholeraEpidemic"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=cholera&gl=US&ceid=US:en"
 },
 {
 	"name": "Ebola",
@@ -18,7 +19,8 @@
     {"hashtag": "EbolaVaccine"},
     {"hashtag": "Epidemic"},
     {"hashtag": "EbolaEpidemic"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=ebola&gl=US&ceid=US:en"
 },
 {
 	"name": "Meningitis",
@@ -32,7 +34,8 @@
     {"hashtag": "meningitissurvivor"},
     {"hashtag": "septicaemia"},
     {"hashtag": "Vaccine"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=meningitis&gl=US&ceid=US:en"
 },
 {
 	"name": "COVID-19",
@@ -46,7 +49,8 @@
     {"hashtag": "CoronavirusOutbreak"},
     {"hashtag": "pandemic"},
     {"hashtag": "Vaccine"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=covid-19&gl=US&ceid=US:en"
 },
 {
 	"name": "Lyme Disease",
@@ -54,7 +58,8 @@
   "hashtags": [
     {"hashtag": "lymedisease"},
     {"hashtag": "LymeDiseaseAwarenessMonth"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=lyme%20disease&gl=US&ceid=US:en"
 },
 {
 	"name": "Zika",
@@ -63,7 +68,8 @@
     {"hashtag": "zika"},
     {"hashtag": "microcephaly"},
     {"hashtag": "zikavirus"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=zika&gl=US&ceid=US:en"
 },
 {
 	"name": "Salmonella",
@@ -74,7 +80,8 @@
     {"hashtag": "foodpoisoning"},
     {"hashtag": "salmonellasucks"},
     {"hashtag": "salmonellaoutbreak"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Salmonella&gl=US&ceid=US:en"
 },
 {
 	"name": "HIV/AIDS",
@@ -87,11 +94,12 @@
     {"hashtag": "PLHIV"},
     {"hashtag": "NYHAAD"},
     {"hashtag": "UEqualsU"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=HIV%20AIDS&gl=US&ceid=US:en"
 },
 {
-	"name": "HIV/AIDS",
-  "disease_URL": "https://www.cdc.gov/nchhstp/",
+	"name": "Malaria",
+  "disease_URL": "https://www.cdc.gov/parasites/malaria/index.html",
   "hashtags": [
     {"hashtag": "Malaria"},
     {"hashtag": "WorldMalariaDay"},
@@ -99,7 +107,9 @@
     {"hashtag": "EradicateMalaria"},
     {"hashtag": "MalariaVaccine"},
     {"hashtag": "Vaccine"}
-  ]
+    
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Malaria&gl=US&ceid=US:en"
 },
 {
 	"name": "Yellow Fever",
@@ -107,5 +117,6 @@
   "hashtags": [
     {"hashtag": "yellowfever"},
     {"hashtag": "yelowfeveroutbreak"}
-  ]
+  ],
+  "RSS":"https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Yellow%20Fever&gl=US&ceid=US:en"
 }]
