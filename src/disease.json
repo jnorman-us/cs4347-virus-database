@@ -1,36 +1,111 @@
 [{
 	"name": "Cholera",
-	"disease_URL": "https://www.who.int/health-topics/cholera#tab=tab_1"
+	"disease_URL": "https://www.who.int/health-topics/cholera#tab=tab_1",
+  "hashtags": [
+    {"hashtag": "Cholera"},
+    {"hashtag": "CholeraOutbreak"},
+    {"hashtag": "Epidemic"},
+    {"hashtag": "CholeraEpidemic"}
+  ]
 },
 {
 	"name": "Ebola",
-	"disease_URL": "https://www.who.int/health-topics/ebola/#tab=tab_1"
+	"disease_URL": "https://www.who.int/health-topics/ebola/#tab=tab_1",
+  "hashtags": [
+    {"hashtag": "Ebola"},
+    {"hashtag": "EbolaOutbreak"},
+    {"hashtag": "EbolaCure"},
+    {"hashtag": "EbolaVaccine"},
+    {"hashtag": "Epidemic"},
+    {"hashtag": "EbolaEpidemic"}
+  ]
 },
 {
 	"name": "Meningitis",
-	"disease_URL": "https://www.who.int/emergencies/diseases/meningitis/en/"
+	"disease_URL": "https://www.who.int/emergencies/diseases/meningitis/en/",
+  "hashtags": [
+    {"hashtag": "Meningitis"},
+    {"hashtag": "BacterialMeningitis"},
+    {"hashtag": "ViralMeningitis"},
+    {"hashtag": "FungalMeningitis"},
+    {"hashtag": "MeningitisVaccine"},
+    {"hashtag": "meningitissurvivor"},
+    {"hashtag": "septicaemia"},
+    {"hashtag": "Vaccine"}
+  ]
 },
 {
 	"name": "COVID-19",
-	"disease_URL": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+  "disease_URL": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+  "hashtags": [
+    {"hashtag": "COVID-19"},
+    {"hashtag": "coronavirus"},
+    {"hashtag": "covid"},
+    {"hashtag": "corona"},
+    {"hashtag": "COVID2019"},
+    {"hashtag": "CoronavirusOutbreak"},
+    {"hashtag": "pandemic"},
+    {"hashtag": "Vaccine"}
+  ]
 },
 {
 	"name": "Lyme Disease",
-	"disease_URL": "https://www.cdc.gov/ncezid/dvbd/media/lymedisease.html"
+	"disease_URL": "https://www.cdc.gov/ncezid/dvbd/media/lymedisease.html",
+  "hashtags": [
+    {"hashtag": "lymedisease"},
+    {"hashtag": "LymeDiseaseAwarenessMonth"}
+  ]
 },
 {
 	"name": "Zika",
-	"disease_URL": "https://www.cdc.gov/zika/index.html"
+	"disease_URL": "https://www.cdc.gov/zika/index.html",
+  "hashtags": [
+    {"hashtag": "zika"},
+    {"hashtag": "microcephaly"},
+    {"hashtag": "zikavirus"}
+  ]
 },
 {
 	"name": "Salmonella",
-	"disease_URL": "https://www.cdc.gov/salmonella/"
+	"disease_URL": "https://www.cdc.gov/salmonella/",
+  "hashtags": [
+    {"hashtag": "salmonella"},
+    {"hashtag": "salmonellapoisoning"},
+    {"hashtag": "foodpoisoning"},
+    {"hashtag": "salmonellasucks"},
+    {"hashtag": "salmonellaoutbreak"}
+  ]
 },
 {
 	"name": "HIV/AIDS",
-	"disease_URL": "https://www.cdc.gov/nchhstp/"
+  "disease_URL": "https://www.cdc.gov/nchhstp/",
+  "hashtags": [
+    {"hashtag": "HIV"},
+    {"hashtag": "AIDS"},
+    {"hashtag": "WorldAIDSDay"},
+    {"hashtag": "AIDSWatch"},
+    {"hashtag": "PLHIV"},
+    {"hashtag": "NYHAAD"},
+    {"hashtag": "UEqualsU"}
+  ]
+},
+{
+	"name": "HIV/AIDS",
+  "disease_URL": "https://www.cdc.gov/nchhstp/",
+  "hashtags": [
+    {"hashtag": "Malaria"},
+    {"hashtag": "WorldMalariaDay"},
+    {"hashtag": "EndMalaria"},
+    {"hashtag": "EradicateMalaria"},
+    {"hashtag": "MalariaVaccine"},
+    {"hashtag": "Vaccine"}
+  ]
 },
 {
 	"name": "Yellow Fever",
-	"disease_URL": "https://www.who.int/csr/disease/yellowfev/en/"
+  "disease_URL": "https://www.who.int/csr/disease/yellowfev/en/",
+  "hashtags": [
+    {"hashtag": "yellowfever"},
+    {"hashtag": "yelowfeveroutbreak"}
+  ]
 }]
