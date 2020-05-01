@@ -1,0 +1,14 @@
+{
+  "name": "viral-generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/generate.js",
+  "scripts": {
+    "start": "nodejs src/generate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
