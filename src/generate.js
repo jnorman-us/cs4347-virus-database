@@ -38,12 +38,27 @@ const Database = require('./database.js');
 	else
 		console.log('Cleared Hashtag table');
 
+	//		clearing Report table
+	const clear_report_result = await database.query('DELETE FROM Report');
+	if(!clear_report_result.success)
+		console.log('Failed to clear Report table');
+	else
+		console.log('Cleared Report table');
+
+	//		clearing Status Update table
+	const clear_status_update_result = await database.query('DELETE FROM Status_Update');
+	if(!clear_status_update_result.success)
+		console.log('Failed to clear Status_Update table');
+	else
+		console.log('Cleared Status_Update table');
+
+
 	// SECOND, POPULATE EVERYTHING INTO THE DATABASE:
 	//		inserting Population data from JSON
 	var populations = require('./population-figures-by-country-csv_json.json');
 	for(var country of populations)
 	{
-		if(country.Country == null || country.Year_2016 == null) continue;
+		if(country.Country == null || country.Year_2016 == null || country.Country_Code == null) continue;
 
 		const insert_population_result = await database.query(`INSERT INTO Population (name, total, latitude, longitude) VALUES ("${ country.Country }", "${ country.Year_2016}", '0', '0')`);
 		if(!insert_population_result.success)
@@ -90,7 +105,6 @@ const Database = require('./database.js');
 	//		inserting Hashtag and RSS Data for each Disease
 	for(var disease of diseases)
 	{
-		
 		if(disease.id != -1){
 			//Insert Hashtag data
 			for(var disease_hashtag of disease["hashtags"]){
@@ -117,6 +131,55 @@ const Database = require('./database.js');
 			}
 		}
 	}
+
+	// 		inserting report, then status updates from ourworldindata for COVID-19
+	var org_id = -1;
+	var disease_id = -1;
+	for(var organization of organizations) if(organization.name == 'Our World in Data') org_id = organization.id;
+	for(var disease of diseases) if(disease.name == 'COVID-19') disease_id = disease.id;
+	if(org_id == -1 || disease_id == -1) throw 'Error in Indexes, wtf?';
+
+	const status_updates = require('./ourworldindata-Covid19.json.json');
+	status_updates.sort(function(first, second) {
+		if(first.date < second.date)
+			return -1;
+		else if(first.date > second.date)
+			return 1;
+		else return 0;
+	});
+
+	var current_date = null;
+	var report_id = -1;
+	for(var status_update of status_updates)
+	{
+		if(status_update.date != current_date)
+		{
+			current_date = status_update.date;
+
+			const insert_report_result = await database.query(`INSERT INTO Report (time, report_URL, org_FK) VALUES ('${ status_update.date }', 'google.com', '${ org_id }')`)
+			if(!insert_report_result.success)
+				console.log(`Failed to insert '${ current_date }' into Report table`);
+			else
+			{
+				report_id = insert_report_result.result.insertId;
+				console.log(`Inserted '${ current_date }' into Report table`);
+			}
+		}
+
+		var population_id = -1;
+		for(var population of populations) if(population.Country_Code == status_update.iso_code) population_id = population.id;
+		if(population_id == -1 || population_id == null) continue;
+
+		// then proceed to add the status update item
+		const status_update_name = `D${ disease_id }:P${ population_id }:R${ report_id }`;
+		const insert_status_result = await database.query(`INSERT INTO Status_Update (disease_FK, population_FK, report_FK, total_cases, total_dead, total_recovered) VALUES ('${ disease_id }', '${ population_id }', '${ report_id }', '${ status_update.total_cases}', '${ status_update.total_deaths}', '0')`);
+		if(!insert_status_result.success)
+			console.log(`Failed to insert ${ status_update_name } into Status Update table`);
+		else
+			console.log(`Inserted ${ status_update_name } into Status Update table`);
+	}
+
+
 
 	// THIRD, CLOSE OFF SQL CONNECTION, THEN FINISH
 	await database.disconnect();
