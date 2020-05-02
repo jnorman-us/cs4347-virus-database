@@ -168,7 +168,7 @@ const Database = require('./database.js');
 
 		var population_id = -1;
 		for(var population of populations) if(population.Country_Code == status_update.iso_code) population_id = population.id;
-		if(population_id == -1) continue;
+		if(population_id == -1 || population_id == null) continue;
 
 		// then proceed to add the status update item
 		const status_update_name = `D${ disease_id }:P${ population_id }:R${ report_id }`;
