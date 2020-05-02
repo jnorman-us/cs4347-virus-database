@@ -13,12 +13,313 @@
         "hashtag": "Epidemic"
       },
       {
-        "hashtag": "CholeraEpidemic"
+        "hashtag": "CholeraBangladesh"
+      },
+      {
+        "hashtag": "CholeraNigeria"
+      },
+      {
+        "hashtag": "CholeraAngola"
+      },
+      {
+        "hashtag": "CholeraEthiopia"
+      },
+      {
+        "hashtag": "CholeraIndia"
+      },
+      {
+        "hashtag": "CholeraIraq"
+      },
+      {
+        "hashtag": "CholeraVietnam"
+      },
+      {
+        "hashtag": "Bangladesh"
+      },
+      {
+        "hashtag": "Nigeria"
+      },
+      {
+        "hashtag": "Angola"
+      },
+      {
+        "hashtag": "Ethiopia"
+      },
+      {
+        "hashtag": "India"
+      },
+      {
+        "hashtag": "Iraq"
+      }
+      ,
+      {
+        "hashtag": "Vietnam"
       }
     ],
     "RSS": [
       {
         "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=cholera&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Mumps",
+    "disease_URL": "https://www.cdc.gov/mumps/index.html",
+    "hashtags": [
+      {
+        "hashtag": "Mumps"
+      },
+      {
+        "hashtag": "MumpsOutbreak"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "MumpsEpidemic"
+      },
+      {
+        "hashtag": "TheMumps"
+      },
+      {
+        "hashtag": "MumpsVirus"
+      },
+      {
+        "hashtag": "MumpsVaccine"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Mumps&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Measles",
+    "disease_URL": "https://www.cdc.gov/measles/",
+    "hashtags": [
+      {
+        "hashtag": "Measles"
+      },
+      {
+        "hashtag": "MeaslesOutbreak"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "MeaslesEpidemic"
+      },
+      {
+        "hashtag": "Rubeola"
+      },
+      {
+        "hashtag": "MeaslesVirus"
+      },
+      {
+        "hashtag": "MeaslesVaccine"
+      },
+      {
+        "hashtag": "MeaslesDRC"
+      },
+      {
+        "hashtag": "MeaslesCongo"
+      },
+      {
+        "hashtag": "MeaslesSamoa"
+      },
+      {
+        "hashtag": "MeaslesVietnam"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Measles&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Rubeola&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Measles%20Rubeola&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Smallpox",
+    "disease_URL": "https://www.cdc.gov/smallpox/index.html",
+    "hashtags": [
+      {
+        "hashtag": "Smallpox"
+      },
+      {
+        "hashtag": "SmallpoxOutbreak"
+      },
+      {
+        "hashtag": "SmallpoxEpidemic"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "SmallpoxVirus"
+      },
+      {
+        "hashtag": "SmallpoxVaccine"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Smallpox&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Plague",
+    "disease_URL": "https://www.cdc.gov/plague/index.html",
+    "hashtags": [
+      {
+        "hashtag": "Plague"
+      },
+      {
+        "hashtag": "PlagueOutbreak"
+      },
+      {
+        "hashtag": "PlagueEpidemic"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "YersinaPestis"
+      },
+      {
+        "hashtag": "YersinaVirus"
+      },
+      {
+        "hashtag": "Vaccine"
+      },
+      {
+        "hashtag": "BlackDeath"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Plague&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Yersina%20Pestis&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Spanish Flu",
+    "disease_URL": "https://www.cdc.gov/plague/index.html",
+    "hashtags": [
+      {
+        "hashtag": "SpanishFlu"
+      },
+      {
+        "hashtag": "FluOutbreak"
+      },
+      {
+        "hashtag": "FluPandemic"
+      },
+      {
+        "hashtag": "Influenza"
+      },
+      {
+        "hashtag": "SpanishFluEpidemic"
+      },
+      {
+        "hashtag": "SpanishFluPandemic"
+      },
+      {
+        "hashtag": "H1N5"
+      },
+      {
+        "hashtag": "H1N5Flu"
+      },
+      {
+        "hashtag": "FluVaccine"
+      },
+      {
+        "hashtag": "Vaccine"
+      },
+      {
+        "hashtag": "SpanishFlu1919"
+      },
+      {
+        "hashtag": "SpanishFlu1918"
+      },
+      {
+        "hashtag": "Flu19181919"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Plague&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Yersina%20Pestis&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Swine Flu",
+    "disease_URL": "https://www.who.int/csr/disease/swineflu/en/",
+    "hashtags": [
+      {
+        "hashtag": "SwineFlu"
+      },
+      {
+        "hashtag": "FluOutbreak"
+      },
+      {
+        "hashtag": "FluPandemic"
+      },
+      {
+        "hashtag": "H1N1"
+      },
+      {
+        "hashtag": "Epidemic"
+      },
+      {
+        "hashtag": "Pandemic"
+      },
+      {
+        "hashtag": "H1N1Epidemic"
+      },
+      {
+        "hashtag": "SwineFluEpidemic"
+      },
+      {
+        "hashtag": "Influenza"
+      },
+      {
+        "hashtag": "Vaccine"
+      },
+      {
+        "hashtag": "FluVaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Swine%20Flu%20H1N1&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=H1N1&gl=US&ceid=US:en"
+      },
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Swine%20Flu&gl=US&ceid=US:en"
       }
     ]
   },
@@ -43,6 +344,21 @@
       },
       {
         "hashtag": "EbolaEpidemic"
+      },
+      {
+        "hashtag": "EbolaWatch"
+      },
+      {
+        "hashtag": "EbolaResearch"
+      },
+      {
+        "hashtag": "EbolaVirus"
+      },
+      {
+        "hashtag": "EbolaDRC"
+      },
+      {
+        "hashtag": "EbolaCongo"
       }
     ],
     "RSS": [
@@ -78,6 +394,9 @@
       },
       {
         "hashtag": "Vaccine"
+      },
+      {
+        "hashtag": "Epidemic"
       }
     ],
     "RSS": [
@@ -92,6 +411,12 @@
     "hashtags": [
       {
         "hashtag": "COVID-19"
+      },
+      {
+        "hashtag": "COVID19"
+      },
+      {
+        "hashtag": "NotTheFlu"
       },
       {
         "hashtag": "coronavirus"
@@ -112,7 +437,109 @@
         "hashtag": "pandemic"
       },
       {
+        "hashtag": "epidemic"
+      },
+      {
+        "hashtag": "Coronavirus2019"
+      },
+      {
+        "hashtag": "Coronavirus19"
+      },
+      {
+        "hashtag": "epidemic2020"
+      },
+      {
+        "hashtag": "Covid_19SA"
+      },
+      {
+        "hashtag": "StaySafeStayHome"
+      },
+      {
+        "hashtag": "INoLongerRemember"
+      },
+      {
+        "hashtag": "Lockdown"
+      },
+      {
+        "hashtag": "WorkingFromHome"
+      },
+      {
+        "hashtag": "WFH"
+      },
+      {
+        "hashtag": "FlattenTheCurve"
+      },
+      {
+        "hashtag": "StayHome"
+      },
+      {
+        "hashtag": "Quarantine"
+      },
+      {
+        "hashtag": "QuarantineAndChill"
+      },
+      {
+        "hashtag": "SafeHands"
+      },
+      {
+        "hashtag": "LockdownNow"
+      },
+      {
+        "hashtag": "SocialDistancing"
+      },
+      {
+        "hashtag": "Distancing"
+      },
+      {
         "hashtag": "Vaccine"
+      },
+      {
+        "hashtag": "TogetherAtHome"
+      },
+      {
+        "hashtag": "Lockdown2020"
+      },
+      {
+        "hashtag": "Quarantine2020"
+      },
+      {
+        "hashtag": "SocialDistance"
+      },
+      {
+        "hashtag": "LockdownLife"
+      },
+      {
+        "hashtag": "NovelCoronavirus"
+      },
+      {
+        "hashtag": "NCov-19"
+      },
+      {
+        "hashtag": "SARS-Cov-2"
+      },
+      {
+        "hashtag": "Corona2020"
+      },
+      {
+        "hashtag": "WuhanCoronavirus"
+      },
+      {
+        "hashtag": "Wuhan"
+      },
+      {
+        "hashtag": "ItalyCoronavirus"
+      },
+      {
+        "hashtag": "NYCCoronavirus"
+      },
+      {
+        "hashtag": "NYC"
+      },
+      {
+        "hashtag": "NewYorkCoronavirus"
+      },
+      {
+        "hashtag": "NewYork"
       }
     ],
     "RSS": [
@@ -124,6 +551,145 @@
       },
       {
         "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=SARS-Cov-2&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "SARS",
+    "disease_URL": "https://www.who.int/csr/sars/en/",
+    "hashtags": [
+      {
+        "hashtag": "SARS"
+      },
+      {
+        "hashtag": "SARS-Cov"
+      },
+      {
+        "hashtag": "SARSSingapore"
+      },
+      {
+        "hashtag": "SARSCanada"
+      },
+      {
+        "hashtag": "SARSOutbreak"
+      },
+      {
+        "hashtag": "SARSVaccine"
+      },
+      {
+        "hashtag": "epidemic"
+      },
+      {
+        "hashtag": "coronavirus"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=SARS&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "MERS",
+    "disease_URL": "https://www.who.int/emergencies/mers-cov/en/",
+    "hashtags": [
+      {
+        "hashtag": "MERS"
+      },
+      {
+        "hashtag": "MERSOutbreak"
+      },
+      {
+        "hashtag": "MERSVaccine"
+      },
+      {
+        "hashtag": "epidemic"
+      },
+      {
+        "hashtag": "coronavirus"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=MERS&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Chicken Pox",
+    "disease_URL": "https://www.who.int/immunization/diseases/varicella/en/",
+    "hashtags": [
+      {
+        "hashtag": "ChickenPox"
+      },
+      {
+        "hashtag": "Pox"
+      },
+      {
+        "hashtag": "Shingles"
+      },
+      {
+        "hashtag": "Vaccine"
+      },
+      {
+        "hashtag": "Varicella"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Chicken%20Pox&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Shingles",
+    "disease_URL": "https://www.cdc.gov/shingles/about/transmission.html",
+    "hashtags": [
+      {
+        "hashtag": "Shingles"
+      },
+      {
+        "hashtag": "ChickenPox"
+      },
+      {
+        "hashtag": "HerpesZoster"
+      },
+      {
+        "hashtag": "Rash"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Shingles%20Disease&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Dengue",
+    "disease_URL": "https://www.cdc.gov/dengue/index.html",
+    "hashtags": [
+      {
+        "hashtag": "Dengue"
+      },
+      {
+        "hashtag": "DengueFever"
+      },
+      {
+        "hashtag": "Mosquito"
+      },
+      {
+        "hashtag": "DengueBolivia"
+      },
+      {
+        "hashtag": "DenguePakistan"
+      },
+      {
+        "hashtag": "DengueBrazil"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Dengue%20Fever&gl=US&ceid=US:en"
       }
     ]
   },
@@ -214,6 +780,9 @@
       },
       {
         "hashtag": "UEqualsU"
+      },
+      {
+        "hashtag": "HIVBC"
       }
     ],
     "RSS": [
@@ -258,6 +827,35 @@
     ]
   },
   {
+    "name": "MRSA",
+    "disease_URL": "https://www.cdc.gov/parasites/malaria/index.html",
+    "hashtags": [
+      {
+        "hashtag": "MRSA"
+      },
+      {
+        "hashtag": "Staph"
+      },
+      {
+        "hashtag": "Superbug"
+      },
+      {
+        "hashtag": "ResistantVirus"
+      },
+      {
+        "hashtag": "MRSAVaccine"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Malaria&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
     "name": "Yellow Fever",
     "disease_URL": "https://www.who.int/csr/disease/yellowfev/en/",
     "hashtags": [
@@ -271,6 +869,29 @@
     "RSS": [
       {
         "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Yellow%20Fever&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "name": "Polio",
+    "disease_URL": "https://www.who.int/health-topics/poliomyelitis#tab=tab_1",
+    "hashtags": [
+      {
+        "hashtag": "polio"
+      },
+      {
+        "hashtag": "endpolio"
+      },
+      {
+        "hashtag": "PolioVaccine"
+      },
+      {
+        "hashtag": "Vaccine"
+      }
+    ],
+    "RSS": [
+      {
+        "RSS": "https://news.google.com/rss/search?cf=all&hl=en-US&pz=1&q=Polior&gl=US&ceid=US:en"
       }
     ]
   }
